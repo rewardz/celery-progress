@@ -41,7 +41,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
     data_files=[
-        ('static/celery_progress', glob('celery_progress/static/celery_progress/*', recursive=True)),
+        ('static/celery_progress', glob('celery_progress/static/celery_progress/*')),
     ],
     extras_require={
         'websockets': ['channels'],
